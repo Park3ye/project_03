@@ -1,0 +1,462 @@
+@charset "utf-8";
+/*mainConTent_07.css*/
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+.mainConTent_07Wrap{width: 100%;height:100%;background-color: transparent;}
+
+
+/* responsive web ================================== */
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+#mainConTent_07{width:100%; min-width: 300px;height: 100%;}
+/*베너_07 제목 영역*/
+.schedule_title_07{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*tiket_link & sns_wrap*/
+.tns_wrap{width: 100%; height: 100%;
+ padding: 10vw;
+ box-sizing: border-box; 
+ }
+/*tiket_link*/
+.tiket_link{display: block;
+width: 100%; height: 40vw;
+border:1px solid #079fdb;
+margin: 0 auto;
+background-image: url(../../../img/tiket_link.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover; 
+box-sizing: border-box;
+}
+
+
+/*sns_wrap*/
+.sns_wrap{width: 100%; height: 30vw; background-color: transparent;}
+/*wrap안에  sns링크 */
+.sns_wrap li{width: 22%; height: 17vw;float: left;
+             margin-top: 5.5vw;margin-right: 3vw;}
+.sns_wrap li:last-child{margin-right: 0;}
+.sns_wrap a{display: block;
+  width: 100%;height: 100%;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+border-radius: 50%}
+/*lck_sns 시작을 알리는 아이콘*/
+.lck_sns{
+ background-image: url(../../../img/sns/lck_sns.png);
+  border:1px solid #079fdb;
+  box-sizing: border-box;
+}
+/*:CL fackbook link*/
+.lck_fb{
+ background-image: url(../../../img/sns/lck_facebook.png);
+  
+}
+/*LCK instargram link*/
+.lck_instar{
+ background-image: url(../../../img/sns/lck_instargram.png);
+  
+}
+/*LCK youtube link*/
+.lck_ytube{
+ background-image: url(../../../img/sns/lck_youtube.png);
+  
+}
+
+/*spotv, ogn wrap*/
+.gametv_wrap{width: 100%; height: 30vw;
+ border-top:1px solid #079fdb;
+ border-bottom:1px solid #079fdb;}
+/*spotv, ogn box common css*/
+.gametv_wrap li{width: 50%;height:19vw; float: left;margin-top: 5.5vw;}
+.gametv_wrap li:first-child{border-right:1px solid #079fdb;box-sizing: border-box;}
+.gametv_wrap a{display: block;width: 100%;height: 100%;}
+.spo_tv{background-image: url(../../../img/sponser/spotv_logo_w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ogn{background-image: url(../../../img/sponser/ogn_logo_w.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size:70% 50%;
+}
+
+
+
+/*해외 lol sns*/
+.global_sns_wrap{width: 100%;height: 14vw;
+ margin-top: 5vw;}
+  .global_sns_wrap li{
+      width: 17%; height: 100%;float: left;
+      margin-right:3.75%;}
+  .global_sns_wrap li:last-child{margin-right: 0;}
+ .global_sns_wrap a{display: block; width: 100%;height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;}
+.eu_twich{background-image: url(../../../img/sns/eu_twich.png);
+}
+.eu_ytube{background-image: url(../../../img/sns/eu_youtube.png);
+}
+.eu_twiter{background-image: url(../../../img/sns/eu_twiter.png);
+}
+.eu_fb{background-image: url(../../../img/sns/eu_facebook.png);
+}
+.eu_instar{background-image: url(../../../img/sns/eu_instar.png);
+}
+
+
+
+}/* ------- max480 */
+
+
+
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+  /* design */
+ #mainConTent_07{width:100%; min-width: 250px;height: 100%;background-color: transparent;}
+ .mainConTent_07Wrap{width: 100%;height:auto; background-color: transparent;}
+/*베너_07 제목 영역*/
+.schedule_title_07{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*tiket_link & sns_wrap*/
+.tns_wrap{width: 100%; height: 100%;
+ padding: 10vw;
+ box-sizing: border-box; 
+ }
+/*tiket_link*/
+.tiket_link{display: block;
+width: 100%; height: 40vw;
+border:1px solid #079fdb;
+margin: 0 auto;
+background-image: url(../../../img/tiket_link.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover; 
+box-sizing: border-box;
+}
+
+/* 03-30 pm 5:51 여기까지  */
+
+
+/*sns_wrap*/
+.sns_wrap{width: 100%; height: 30vw; background-color: transparent;}
+/*wrap안에  sns링크 */
+.sns_wrap li{width: 22%; height: 17vw;float: left;
+             margin-top: 5.5vw;margin-right: 3vw;}
+.sns_wrap li:last-child{margin-right: 0;}
+.sns_wrap a{display: block;
+  width: 100%;height: 100%;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+border-radius: 50%}
+/*lck_sns 시작을 알리는 아이콘*/
+.lck_sns{
+ background-image: url(../../../img/sns/lck_sns.png);
+  border:1px solid #079fdb;
+  box-sizing: border-box;
+}
+/*:CL fackbook link*/
+.lck_fb{
+ background-image: url(../../../img/sns/lck_facebook.png);
+  
+}
+/*LCK instargram link*/
+.lck_instar{
+ background-image: url(../../../img/sns/lck_instargram.png);
+  
+}
+/*LCK youtube link*/
+.lck_ytube{
+ background-image: url(../../../img/sns/lck_youtube.png);
+  
+}
+
+/*spotv, ogn wrap*/
+.gametv_wrap{width: 100%; height: 30vw;
+ border-top:1px solid #079fdb;
+ border-bottom:1px solid #079fdb;}
+/*spotv, ogn box common css*/
+.gametv_wrap li{width: 50%;height:19vw; float: left;margin-top: 5.5vw;}
+.gametv_wrap li:first-child{border-right:1px solid #079fdb;box-sizing: border-box;}
+.gametv_wrap a{display: block;width: 100%;height: 100%;}
+.spo_tv{background-image: url(../../../img/sponser/spotv_logo_w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ogn{background-image: url(../../../img/sponser/ogn_logo_w.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size:70% 50%;
+}
+
+
+
+/*해외 lol sns*/
+.global_sns_wrap{width: 100%;height: 14vw;
+ margin-top: 5vw;}
+  .global_sns_wrap li{
+      width: 17%; height: 100%;float: left;
+      margin-right:3.75%;}
+  .global_sns_wrap li:last-child{margin-right: 0;}
+ .global_sns_wrap a{display: block; width: 100%;height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;}
+.eu_twich{background-image: url(../../../img/sns/eu_twich.png);
+}
+.eu_ytube{background-image: url(../../../img/sns/eu_youtube.png);
+}
+.eu_twiter{background-image: url(../../../img/sns/eu_twiter.png);
+}
+.eu_fb{background-image: url(../../../img/sns/eu_facebook.png);
+}
+.eu_instar{background-image: url(../../../img/sns/eu_instar.png);
+}
+
+}/* ------- 481 ~ 767 */
+
+
+
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+  #mainConTent_07{width: 100%;height: 100%; }
+.mainConTent_07Wrap{width: 100%;height:auto;background-image: url(../../../img/bg/faker_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+padding-top: 10vh;padding-bottom: 5vw; box-sizing:border-box;}
+          /*메인컨텐츠_07 제목 영역*/
+.schedule_title_07{ width: 100%;height:7vh;
+ background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.4),rgba(7,159,219,0.2),rgba(255,255,255,0.4));
+ font-size: 1.5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+.pcfull_07wrap{width: 80%;height: 80%; margin: 5vw auto 0;}
+/*tiket_link & sns_wrap*/
+.tns_wrap{width: 80%; height: 30%; margin: 0 auto;
+ }
+/*tiket_link*/
+.tiket_link{display: block;
+width: 50%; height: 20vw;
+border:1px solid #079fdb;
+margin: 0 auto;
+background-image: url(../../../img/tiket_link.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover; 
+box-sizing: border-box;
+}
+.pcfull_subwrap{width: 50%; height:auto;margin: 0 auto;}
+.pcfull_subwrap ul{float: left;}
+
+/*sns_wrap*/
+.sns_wrap{width: 100%; height:auto;}
+/*wrap안에  sns링크 */
+.sns_wrap li{width: 15%; height: 5vw;float: left;
+             margin-top: 1vw;
+             margin-bottom: 1vw;
+             margin-right: 4.15vw;}
+.sns_wrap li:last-child{margin-right: 0;}
+.sns_wrap a{display: block;
+  width: 100%;height: 100%;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+border-radius: 50%}
+/*lck_sns 시작을 알리는 아이콘*/
+.lck_sns{
+ background-image: url(../../../img/sns/lck_sns.png);
+  border:1px solid #079fdb;
+  box-sizing: border-box;
+}
+/*:CL fackbook link*/
+.lck_fb{
+ background-image: url(../../../img/sns/lck_facebook.png);
+  
+}
+/*LCK instargram link*/
+.lck_instar{
+ background-image: url(../../../img/sns/lck_instargram.png);
+  
+}
+/*LCK youtube link*/
+.lck_ytube{
+ background-image: url(../../../img/sns/lck_youtube.png);
+  
+}
+
+/*spotv, ogn wrap*/
+.gametv_wrap{width: 100%; height: auto;
+ border-top:1px solid #079fdb;
+ border-bottom:1px solid #079fdb;}
+/*spotv, ogn box common css*/
+.gametv_wrap li{width: 50%;height:5vw; float: left;margin: 1vw 0;}
+.gametv_wrap li:first-child{border-right:1px solid #079fdb;box-sizing: border-box;}
+.gametv_wrap a{display: block;width: 100%;height: 100%;}
+.spo_tv{background-image: url(../../../img/sponser/spotv_logo_w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ogn{background-image: url(../../../img/sponser/ogn_logo_w.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size:55%;
+}
+
+
+
+/*해외 lol sns*/
+.global_sns_wrap{width: 100%;height: 7vw;}
+  .global_sns_wrap li{
+      width: 17%; height: 100%;float: left;
+      margin-right:3.75%;}
+  .global_sns_wrap li:last-child{margin-right: 0;}
+ .global_sns_wrap a{display: block; width: 100%;height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;}
+.eu_twich{background-image: url(../../../img/sns/eu_twich.png);
+}
+.eu_ytube{background-image: url(../../../img/sns/eu_youtube.png);
+}
+.eu_twiter{background-image: url(../../../img/sns/eu_twiter.png);
+}
+.eu_fb{background-image: url(../../../img/sns/eu_facebook.png);
+}
+.eu_instar{background-image: url(../../../img/sns/eu_instar.png);
+}
+
+
+
+
+}/* ------- 768 ~ 1366 */
+
+
+
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+  #mainConTent_07{width: 100%;height: 100%; }
+.mainConTent_07Wrap{width: 100%;height:auto;background-image: url(../../../img/bg/faker_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+padding-top: 10vh; box-sizing:border-box; padding-bottom: 5vw;}
+
+/*메인컨텐츠_07 제목 영역*/
+.schedule_title_07{ width: 100%;height:7vh;
+ background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.4),rgba(7,159,219,0.2),rgba(255,255,255,0.4));
+ font-size: 1vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+.pcfull_07wrap{width: 70%;height: auto; margin: 5vw auto 0;background-color:background-color: rgba(255,255,255,0.2);}
+/*tiket_link & sns_wrap*/
+.tns_wrap{width: 80%; height: 30%; margin: 0 auto;
+ }
+
+/*tiket_link*/
+.tiket_link{display: block;
+width: 40%; height: 12vw;
+border:1px solid #079fdb;
+margin: 0 auto;
+background-image: url(../../../img/tiket_link.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover; 
+box-sizing: border-box;
+}
+.pcfull_subwrap{width: 40%; height:auto;margin: 0 auto; }
+.pcfull_subwrap ul{width: 100%; margin: 0 auto;float: left;}
+
+/*sns_wrap*/
+.sns_wrap{width: 100%; height:auto;}
+/*wrap안에  sns링크 */
+.sns_wrap li{width: 18.2%; height:4vw;float: left;
+             margin-top: 1vw;
+             margin-bottom: 1vw;
+             margin-right: 2vw;}
+.sns_wrap li:last-child{margin-right: 0;}
+.sns_wrap a{display: block;
+  width: 100%;height: 100%;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+border-radius: 50%}
+/*lck_sns 시작을 알리는 아이콘*/
+.lck_sns{
+ background-image: url(../../../img/sns/lck_sns.png);
+  border:1px solid #079fdb;
+  box-sizing: border-box;
+}
+/*:CL fackbook link*/
+.lck_fb{
+ background-image: url(../../../img/sns/lck_facebook.png);
+  
+}
+/*LCK instargram link*/
+.lck_instar{
+ background-image: url(../../../img/sns/lck_instargram.png);
+  
+}
+/*LCK youtube link*/
+.lck_ytube{
+ background-image: url(../../../img/sns/lck_youtube.png);
+  
+}
+
+/*spotv, ogn wrap*/
+.gametv_wrap{width: 100%; height: auto;
+ border-top:1px solid #079fdb;
+ border-bottom:1px solid #079fdb;}
+/*spotv, ogn box common css*/
+.gametv_wrap li{width: 50%;height:5vw; float: left;margin: 1vw 0;}
+.gametv_wrap li:first-child{border-right:1px solid #079fdb;box-sizing: border-box;}
+.gametv_wrap a{display: block;width: 100%;height: 100%;}
+.spo_tv{background-image: url(../../../img/sponser/spotv_logo_w.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ogn{background-image: url(../../../img/sponser/ogn_logo_w.png);background-position: center;
+  background-repeat: no-repeat;
+  background-size:55%;
+}
+
+
+
+/*해외 lol sns*/
+.global_sns_wrap{width: 100%;height: 7vw;}
+  .global_sns_wrap li{
+      width: 17%; height: 100%;float: left;
+      margin-right:3.75%;}
+  .global_sns_wrap li:last-child{margin-right: 0;}
+ .global_sns_wrap a{display: block; width: 100%;height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;}
+.eu_twich{background-image: url(../../../img/sns/eu_twich.png);
+}
+.eu_ytube{background-image: url(../../../img/sns/eu_youtube.png);
+}
+.eu_twiter{background-image: url(../../../img/sns/eu_twiter.png);
+}
+.eu_fb{background-image: url(../../../img/sns/eu_facebook.png);
+}
+.eu_instar{background-image: url(../../../img/sns/eu_instar.png);
+}
+
+
+
+
+}/* ------- min1367 */

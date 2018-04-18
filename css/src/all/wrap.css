@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* wrap.css */
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+
+
+
+/* responsive web ================================== */
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+#wrap>div{ background-image: url( ../../../img/bg/bgimage.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+#wrap>div:nth-of-type(1){background-image:none;}
+
+  #wrap{width: 100%;min-width: auto; height: 100%;
+    }
+
+
+}/* ------- max480 */
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+  /* design */
+#wrap>div{ background-image: url( ../../../img/bg/bgimage.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+#wrap>div:nth-of-type(1){background-image:none;}
+
+  #wrap{width: 100%;min-width: auto; height: 100%;
+    }
+
+
+
+}/* ------- 481 ~ 767 */
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+    #wrap{width: 100%;min-width: auto; height: 100%;
+
+    }
+
+}/* ------- 768 ~ 1366 */
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+    /* design */
+   #wrap{width: 100%;min-width: auto; height: 100%;
+    }
+
+}/* ------- min1367 */
+ 
+
+
+
+
+
+
+
+
+
+  /*
+  vw, vh:
+  vw는 화면가로 전체를 기준으로 가로값을 %비율로 처리하는 공식
+  vh는 화면세로 전체를 기준으로 세로값을 %비율로 처리하는 공식
+  
+  width:10vw;   => 주어진값의 가로값을 화면전체의 가로값에서 10%정도의 가로값을 가진다
+  height:20vw;  => 주어진값의 세로값을 화면전체의 가로값에서 20%정도의 가로값을 세로값으로 설정
+
+  사용공식:
+    고정수치 기준(가로값 600px기준에서 높이값이 300px)
+    (높이값 / 기준가로값 * 100)vw
+    300 / 600 * 100 => 50vw
+    
+  */

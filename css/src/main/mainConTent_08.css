@@ -1,0 +1,200 @@
+@charset "utf-8";
+/*mainConTent_08.css*/
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+.mainConTent_08Wrap{width: 100%;height: 100%;}
+
+
+/* responsive web ================================== */
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+.mainConTent_08Wrap{width: 100%;height: auto;}
+#mainConTent_08{width:100%; height: 100%; }
+
+/*베너_08 제목 영역*/
+.schedule_title_08{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+.rank_wrap{width: 100%; height: 100%;
+ padding: 10vw 5vw;
+ box-sizing: border-box; 
+ }
+
+ .rank_wrap>li{width: 100%; height: 12vw;
+   margin-bottom: 2vw; text-align: center;
+  line-height: 15vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  border:1px solid #079fdb; box-sizing: border-box;
+}
+.rank_01{background-image: url(../../../img/rank/rank_01.png);
+}
+.rank_02{background-image: url(../../../img/rank/rank_02.png)}
+.rank_03{background-image: url(../../../img/rank/rank_03.png)}
+.rank_04{background-image: url(../../../img/rank/rank_04.png)}
+.rank_05{background-image: url(../../../img/rank/rank_05.png)}
+.rank_06{background-image: url(../../../img/rank/rank_06.png)}
+.rank_07{background-image: url(../../../img/rank/rank_07.png)}
+.rank_08{background-image: url(../../../img/rank/rank_08.png)}
+.rank_09{background-image: url(../../../img/rank/rank_09.png)}
+.rank_10{background-image: url(../../../img/rank/rank_10.png)}
+
+
+}/* ------- max480 */
+
+
+
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+  /* design */
+ .mainConTent_08Wrap{width: 100%;height: auto;}
+#mainConTent_08{width:100%; height: 100%; }
+
+/*베너_08 제목 영역*/
+.schedule_title_08{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+.rank_wrap{width: 100%; height: 100%;
+ padding: 10vw 5vw;
+ box-sizing: border-box; 
+ }
+
+ .rank_wrap>li{width: 100%; height: 12vw;
+   margin-bottom: 2vw; text-align: center;
+  line-height: 15vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  border:1px solid #079fdb; box-sizing: border-box;
+}
+.rank_01{background-image: url(../../../img/rank/rank_01.png);}
+.rank_02{background-image: url(../../../img/rank/rank_02.png);}
+.rank_03{background-image: url(../../../img/rank/rank_03.png);}
+.rank_04{background-image: url(../../../img/rank/rank_04.png);}
+.rank_05{background-image: url(../../../img/rank/rank_05.png);}
+.rank_06{background-image: url(../../../img/rank/rank_06.png);}
+.rank_07{background-image: url(../../../img/rank/rank_07.png);}
+.rank_08{background-image: url(../../../img/rank/rank_08.png);}
+.rank_09{background-image: url(../../../img/rank/rank_09.png);}
+.rank_10{background-image: url(../../../img/rank/rank_10.png);}
+
+
+}/* ------- 481 ~ 767 */
+
+
+
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+.mainConTent_08Wrap{width: 100%;height: 100%;background-image: url(../../../img/bg/lckbg_overlay.png);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+padding-top: 10vh; box-sizing:border-box;
+}
+  #mainConTent_08{width: 100%; height: 100%;}
+
+          /*메인컨텐츠_08 제목 영역*/
+.schedule_title_08{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1.5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*이 페이지도, 모바일과 pc버전을 따로 작성하겠습니다.*/
+.rank_wrap{display: none;}
+
+/*pc~full start*/
+
+.pcfull_08wrap{width: 80%; height: 90%; padding-top: 8vw; box-sizing: border-box;margin: 0 auto;
+}
+.pcfull_leftwrap{width: 27.5%; height: 100%; float: left;
+ }
+.pcfull_rightwrap{width: 27.5%; height: 100%;float: right;
+}
+.pcfull_08wrap li{
+  width: 100%; height: 7.8%; 
+  margin-bottom:10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  border:1px solid #079fdb; box-sizing: border-box;
+  }
+.pcfull_08wrap li:nth-of-type(5n){margin-bottom: 0;}
+
+.rank_01{background-image: url(../../../img/rank/rank_01.png);}
+.rank_02{background-image: url(../../../img/rank/rank_02.png);}
+.rank_03{background-image: url(../../../img/rank/rank_03.png);}
+.rank_04{background-image: url(../../../img/rank/rank_04.png);}
+.rank_05{background-image: url(../../../img/rank/rank_05.png);}
+.rank_06{background-image: url(../../../img/rank/rank_06.png);}
+.rank_07{background-image: url(../../../img/rank/rank_07.png);}
+.rank_08{background-image: url(../../../img/rank/rank_08.png);}
+.rank_09{background-image: url(../../../img/rank/rank_09.png);}
+.rank_10{background-image: url(../../../img/rank/rank_10.png);}
+
+}/* ------- 768 ~ 1366 */
+
+
+
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+  /* design */
+.mainConTent_08Wrap{width: 100%;height: 100%;background-image: url(../../../img/bg/lckbg_overlay.png);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+padding-top: 10vh; box-sizing:border-box; padding-bottom: 5vw;
+}
+  #mainConTent_08{width: 100%; height: 100%;}
+
+          /*메인컨텐츠_08 제목 영역*/
+.schedule_title_08{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*이 페이지도, 모바일과 pc버전을 따로 작성하겠습니다.*/
+.rank_wrap{display: none;}
+
+/*pc~full start*/
+
+.pcfull_08wrap{width: 80%; height: 90%; padding-top: 8vw; box-sizing: border-box;margin: 0 auto;
+}
+.pcfull_leftwrap{width: 20%; height: 100%; float: left;
+ }
+.pcfull_rightwrap{width: 20%; height: 100%;float: right;
+}
+.pcfull_08wrap li{
+  width: 100%; height: 9%; 
+  margin-bottom:15%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  border:1px solid #079fdb; box-sizing: border-box;
+  }
+.pcfull_08wrap li:nth-of-type(5n){margin-bottom: 0;}
+
+.rank_01{background-image: url(../../../img/rank/rank_01.png);}
+.rank_02{background-image: url(../../../img/rank/rank_02.png);}
+.rank_03{background-image: url(../../../img/rank/rank_03.png);}
+.rank_04{background-image: url(../../../img/rank/rank_04.png);}
+.rank_05{background-image: url(../../../img/rank/rank_05.png);}
+.rank_06{background-image: url(../../../img/rank/rank_06.png);}
+.rank_07{background-image: url(../../../img/rank/rank_07.png);}
+.rank_08{background-image: url(../../../img/rank/rank_08.png);}
+.rank_09{background-image: url(../../../img/rank/rank_09.png);}
+.rank_10{background-image: url(../../../img/rank/rank_10.png);}
+
+
+}/* ------- min1367 */

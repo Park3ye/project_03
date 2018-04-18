@@ -1,0 +1,746 @@
+@charset "utf-8";
+/*bannerBox_03.css*/
+
+/* responsive web ================================== */
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+.bannerBox_03Wrap{width: 100%;height: 100%;}
+#bannerBox_03{width: 100%;height: 100%;}
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+
+/*제목 */
+.schedule_title_03{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+
+/*btn박스 css*/
+.btn_area{width: 100%;height: auto;position:relative; }
+/*button에 대한 css*/
+.btn_area button{display: block; width: 25vw; height: 10vw; position: absolute;top:50%;margin-top:62%; margin-left:37%;
+   background-color:transparent;float: left; 
+}
+  /*left btn image*/
+.l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;
+       }
+/*right btn image*/
+.r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:38%;
+       }
+
+
+/*1. 경기를 뛰는 팀과 시간 */
+
+/*아래의 영역을 싸잡는 랩 -제목과 아래의 내용사이의 padding값을 잡기 위한 wrap이다. 패딩값은 25vw;*/
+.content_warp{width: 100%;height: 100%; padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+/*article Box*/
+.time_schedule{width: 100%; height: auto;text-align: center; color:#fff;}
+/*round schedule Box*/
+.round_schedule{width: 100%;height: 100%;}
+
+
+/*아트박스 첫번째와 두번쨰의 간격을 나누기 위한 css*/
+.ts_last{padding-top: 12vw; box-sizing: border-box;}
+
+/*article 내부의 박스 옵션 공통영역 */
+.time_schedule dl{width: 40%;height: 100%; float: left;  box-sizing: border-box;}
+/*날짜*/
+.date_title{display: block;width: 100%; height:auto; text-align: center; padding-bottom: 5vh; box-sizing: border-box; color:#fff;}
+/*엠블럼*/
+.time_schedule dl>dd{width: 80%;height: 32vw;margin: 0 auto;border-radius: 50%;}
+/*팀명*/
+.time_schedule dl>dt{width: 100%;height:auto; font-size: 3vw;line-height: 5vw; padding-top: 1vw;}
+/*VS area*/
+.time_schedule ul{width: 20%;height: 100%; float: left; padding-top:15vw; box-sizing: border-box;}
+
+/*공통영역 끝----------------------------- */
+
+/*영역별 팀 css ----------------------------start*/
+
+/*팀별 이름에 대한 css */
+.team_01{}
+.team_02{}
+.team_03{}
+.team_04{}
+.team_05{}
+.team_06{}
+.team_07{}
+.team_08{}
+.team_09{}
+.team_10{}
+
+/*엠블럼 이미지와 테두리 박스  css*/
+
+/*
+team_01 :KingZone Dragon X;
+team_02 :KSV(삼성);
+team_03 :Rox;
+team_04 :JinAir;
+team_05 :AFs;
+team_06 :MVP;
+team_07 :KT;
+team_08 :BBQ;
+team_09 :콩두몬스터;
+team_10 :SKT T1;
+*/
+
+/*1day start*/
+.emblem_01{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_10.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain;}
+
+.emblem_02{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_03{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_04{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_06.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*1day End*/
+
+/*2day Start*/
+.emblem_05{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_01.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_06{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_09.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_07{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_08{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_03.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*2day End*/
+
+/*3day Start*/
+.emblem_09{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_08.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_10{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_11{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_12{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+/*3day End*/
+
+
+/*팀별 이름에 대한 css*/
+
+.title_01{}
+.title_02{}
+.title_03{}
+.title_04{}
+.title_05{}
+.title_06{}
+.title_07{}
+.title_08{}
+
+/*vs area*/
+.vs_time{}
+.vs{font-size: 6vw; padding-bottom: 5vw;box-sizing: border-box;}
+.time{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/* ------- max480 */
+
+
+
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+  /* design */
+ /*제목 */
+.schedule_title_03{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+
+/*btn박스 css*/
+.btn_area{width: 100%;height: auto;position:relative; }
+/*button에 대한 css*/
+.btn_area button{display: block; width: 25vw; height: 10vw; position: absolute;top:50%;margin-top:62%; margin-left:37%;
+   background-color:transparent;float: left; 
+}
+  /*left btn image*/
+.l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;
+       }
+/*right btn image*/
+.r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:38%;
+       }
+
+
+/*1. 경기를 뛰는 팀과 시간 */
+
+/*아래의 영역을 싸잡는 랩 -제목과 아래의 내용사이의 padding값을 잡기 위한 wrap이다. 패딩값은 25vw;*/
+.content_warp{width: 100%;height: 100%; padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+/*article Box*/
+.time_schedule{width: 100%; height: auto;text-align: center; color:#fff;}
+/*round schedule Box*/
+.round_schedule{width: 100%;height: 100%;}
+
+
+/*아트박스 첫번째와 두번쨰의 간격을 나누기 위한 css*/
+.ts_last{padding-top: 12vw; box-sizing: border-box;}
+
+/*article 내부의 박스 옵션 공통영역 */
+.time_schedule dl{width: 40%;height: 100%; float: left;  box-sizing: border-box;}
+/*날짜*/
+.date_title{display: block;width: 100%; height:auto; text-align: center; padding-bottom: 5vh; box-sizing: border-box; color:#fff;}
+/*엠블럼*/
+.time_schedule dl>dd{width: 80%;height: 32vw;margin: 0 auto;border-radius: 50%;}
+/*팀명*/
+.time_schedule dl>dt{width: 100%;height:auto; font-size: 3vw;line-height: 5vw; padding-top: 1vw;}
+/*VS area*/
+.time_schedule ul{width: 20%;height: 100%; float: left; padding-top:15vw; box-sizing: border-box;}
+
+/*공통영역 끝----------------------------- */
+
+/*영역별 팀 css ----------------------------start*/
+
+/*팀별 이름에 대한 css */
+.team_01{}
+.team_02{}
+.team_03{}
+.team_04{}
+.team_05{}
+.team_06{}
+.team_07{}
+.team_08{}
+.team_09{}
+.team_10{}
+
+/*엠블럼 이미지와 테두리 박스  css*/
+
+/*
+team_01 :KingZone Dragon X;
+team_02 :KSV(삼성);
+team_03 :Rox;
+team_04 :JinAir;
+team_05 :AFs;
+team_06 :MVP;
+team_07 :KT;
+team_08 :BBQ;
+team_09 :콩두몬스터;
+team_10 :SKT T1;
+*/
+
+/*1day start*/
+.emblem_01{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_10.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain;}
+
+.emblem_02{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_03{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_04{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_06.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*1day End*/
+
+/*2day Start*/
+.emblem_05{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_01.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_06{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_09.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_07{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_08{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_03.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*2day End*/
+
+/*3day Start*/
+.emblem_09{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_08.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_10{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_11{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_12{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+/*3day End*/
+
+
+/*팀별 이름에 대한 css*/
+
+.title_01{}
+.title_02{}
+.title_03{}
+.title_04{}
+.title_05{}
+.title_06{}
+.title_07{}
+.title_08{}
+
+/*vs area*/
+.vs_time{}
+.vs{font-size: 6vw; padding-bottom: 5vw;box-sizing: border-box;}
+.time{}
+
+}/* ------- 481 ~ 767 */
+
+
+
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+  .bannerBox_03Wrap{width: 100%; height:auto;
+    background-image: url("../../../img/bg/lol_backgroundimage_01.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 10vh; box-sizing:border-box;padding-bottom: 5vw;}
+
+  #bannerBox_03{width: 100%;height: 100%;}
+
+  /*제목 */
+.schedule_title_03{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1.5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+
+/*btn박스 css*/
+.btn_area{width: 100%;height: auto;position:relative; }
+/*button에 대한 css*/
+.btn_area button{display: block; width: 10vw; height: 1vw; position: absolute;top:50%;margin-top:27%; margin-left:37%;
+   background-color:transparent;float: left; 
+}
+  /*left btn image*/
+.l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;
+       }
+/*right btn image*/
+.r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:53%;
+       }
+
+
+/*1. 경기를 뛰는 팀과 시간 */
+
+/*아래의 영역을 싸잡는 랩 -제목과 아래의 내용사이의 padding값을 잡기 위한 wrap이다. 패딩값은 25vw;*/
+.content_warp{width: 100%;height: 100%; padding-top:5vw;background-color:transparent; box-sizing: border-box;}
+/*round schedule Box*/
+.round_schedule{width: 50%;height: 100%;float: left;}
+/*.round_schedule:nth-of-type(2n){margin-right: 0;}*/
+/*article Box*/
+.time_schedule{width: 100%; height: auto;text-align: center; color:#fff;}
+
+
+/*아트박스 첫번째와 두번쨰의 간격을 나누기 위한 css*/
+.ts_last{padding-top: 5vw; box-sizing: border-box;}
+
+/*article 내부의 박스 옵션 공통영역 */
+.time_schedule dl{width: 40%;height: 100%; float: left;  box-sizing: border-box;}
+/*날짜*/
+.date_title{display: block;width: 100%; height:auto; text-align: center; padding-bottom: 5vh; box-sizing: border-box; color:#fff;}
+/*엠블럼*/
+.time_schedule dl>dd{width: 50%;height: 10vw;margin: 0 auto;border-radius: 50%;}
+/*팀명*/
+.time_schedule dl>dt{width: 100%;height:auto; font-size: 1.5vw;line-height: 5vw; padding-top: 1vw;}
+/*VS area*/
+.time_schedule ul{width: 20%;height: 100%; float: left; padding-top:5vw; box-sizing: border-box;}
+/*vs area text size*/
+.vs_time{}
+.vs{font-size: 2vw; padding-bottom: 5vw;box-sizing: border-box;}
+.time{}
+
+
+
+/*공통영역 끝----------------------------- */
+
+/*영역별 팀 css ----------------------------start*/
+
+/*팀별 이름에 대한 css */
+.team_01{}
+.team_02{}
+.team_03{}
+.team_04{}
+.team_05{}
+.team_06{}
+.team_07{}
+.team_08{}
+.team_09{}
+.team_10{}
+
+/*엠블럼 이미지와 테두리 박스  css*/
+
+/*
+team_01 :KingZone Dragon X;
+team_02 :KSV(삼성);
+team_03 :Rox;
+team_04 :JinAir;
+team_05 :AFs;
+team_06 :MVP;
+team_07 :KT;
+team_08 :BBQ;
+team_09 :콩두몬스터;
+team_10 :KT;
+*/
+
+/*1day start*/
+
+.emblem_01{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_10.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain;}
+.emblem_02{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_03{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_04{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_06.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*1day End*/
+
+/*2day Start*/
+.emblem_05{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_01.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_06{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_09.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_07{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_08{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_03.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*2day End*/
+
+/*3day Start*/
+.emblem_09{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_08.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_10{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_11{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_12{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+/*3day End*/
+
+
+
+
+}/* ------- 768 ~ 1366 */
+
+
+
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+ .bannerBox_03Wrap{width: 100%; height:130%;
+    background-image: url("../../../img/bg/lol_backgroundimage_01.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top: 10vh; box-sizing:border-box;}
+
+  #bannerBox_03{width: 100%;height: 100%;}
+
+  /*제목 */
+.schedule_title_03{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+
+/*btn박스 css*/
+.btn_area{width: 100%;height: auto;position:relative; }
+/*button에 대한 css*/
+.btn_area button{display: block; width: 10vw; height: 1vw; position: absolute;top:50%;margin-top:26%; margin-left:37%;
+   background-color:transparent;float: left; 
+}
+  /*left btn image*/
+.l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;
+       }
+/*right btn image*/
+.r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:53%;
+       }
+
+
+/*1. 경기를 뛰는 팀과 시간 */
+
+/*아래의 영역을 싸잡는 랩 -제목과 아래의 내용사이의 padding값을 잡기 위한 wrap이다. 패딩값은 25vw;*/
+.content_warp{width:100%;height:100%;margin: 0 auto; padding-top:5vw;box-sizing: border-box;}
+/*round schedule Box*/
+.round_schedule{width: 100%;height: 100%;float: left;}
+/*.round_schedule:nth-of-type(2n){margin-right: 0;}*/
+/*article Box*/
+.time_schedule{width: 50%;margin: 0 auto; height: auto;text-align: center; color:#fff;}
+
+
+/*아트박스 첫번째와 두번쨰의 간격을 나누기 위한 css*/
+.ts_last{padding-top: 5vw; box-sizing: border-box;}
+
+/*article 내부의 박스 옵션 공통영역 */
+.time_schedule dl{width: 40%;height: 100%; float: left;  box-sizing: border-box;}
+/*날짜*/
+.date_title{display: block;width: 100%; height:auto; text-align: center; padding-bottom: 5vh; box-sizing: border-box; color:#fff;}
+/*엠블럼*/
+.time_schedule dl>dd{width: 100%;height: 10vw;margin: 0 auto;border-radius: 50%;}
+/*팀명*/
+.time_schedule dl>dt{width: 100%;height:auto; font-size: 1.2vw;line-height: 5vw; padding-top: 1vw;}
+/*VS area*/
+.time_schedule ul{width: 20%;height: 100%; float: left; padding-top:5vw; box-sizing: border-box;}
+/*vs area text size*/
+.vs_time{font-size: 1vw;}
+.vs{font-size: 1.5vw; padding-bottom: 5vw;box-sizing: border-box;}
+.time{}
+
+
+
+/*공통영역 끝----------------------------- */
+
+/*영역별 팀 css ----------------------------start*/
+
+/*팀별 이름에 대한 css */
+.team_01{}
+.team_02{}
+.team_03{}
+.team_04{}
+.team_05{}
+.team_06{}
+.team_07{}
+.team_08{}
+.team_09{}
+.team_10{}
+
+/*엠블럼 이미지와 테두리 박스  css*/
+
+/*
+team_01 :KingZone Dragon X;
+team_02 :KSV(삼성);
+team_03 :Rox;
+team_04 :JinAir;
+team_05 :AFs;
+team_06 :MVP;
+team_07 :KT;
+team_08 :BBQ;
+team_09 :콩두몬스터;
+team_10 :KT;
+*/
+
+/*1day start*/
+
+.emblem_01{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_10.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain;}
+.emblem_02{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_03{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_04{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_06.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*1day End*/
+
+/*2day Start*/
+.emblem_05{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_01.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_06{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_09.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_07{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_08{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_03.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+
+/*2day End*/
+
+/*3day Start*/
+.emblem_09{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_08.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_10{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_07.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_11{border:1px solid #079fdb;
+          background-image: url(../../../img/team/team_05.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+.emblem_12{border:1px solid #cc0070;
+          background-image: url(../../../img/team/team_04.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:contain ;}
+/*3day End*/
+
+
+
+}/* ------- min1367 */

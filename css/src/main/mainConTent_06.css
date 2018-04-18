@@ -1,0 +1,244 @@
+@charset "utf-8";
+/*mainConTent_06.css*/
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+.mainConTent_06Wrap{width: 100%;height:auto;}
+
+/* responsive web ================================== */
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+  #mainConTent_06{ width: 100%; min-width: 200px; 
+height:100%;}
+/*베너_06 제목 영역*/
+.schedule_title_06{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+/*뉴스 영역 박스들 사이즈 색*/
+.news_list{width: 100%;height: 100%; 
+  padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+ /* 뉴스 랩 */
+.n_contents{width: 100%; height: auto; background-color:}
+/*뉴스에 대한 디자인 css*/
+.n_contents>dd{width: 80%;height: 25vw; background-color: #ccc;margin: 0 auto;margin-bottom: 5vw;
+ border:1px solid #079fdb;}
+.n_contents a{display: block;width: 100%;height: 100%;}
+/* 뉴스 제목 */
+.n_contents>dt{width: 80%; height:10vw; margin: 0 auto 10vw; color:#fff; text-align: center;line-height: 5.5vw;
+ font-size: 3vw;}
+/*각각의 dd들의 이미지 */
+.news_list .weekly_lck{height: 30vw;
+  background-image: url(../../../img/news/weekly_lck.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.news_01{background-image: url(../../../img/news/news_01.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+.news_02{background-image: url(../../../img/news/news_02.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+.pcfull_news{display: none;}
+
+}/* ------- max480 */
+
+
+
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+  /* design */
+  #mainConTent_06{ width: 100%; min-width: 200px; 
+height:100%;}
+/*베너_06 제목 영역*/
+.schedule_title_06{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+/*뉴스 영역 박스들 사이즈 색*/
+.news_list{width: 100%;height: 100%; 
+  padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+ /* 뉴스 랩 */
+.n_contents{width: 100%; height: auto; background-color:}
+/*뉴스에 대한 디자인 css*/
+.n_contents>dd{width: 80%;height: 25vw; background-color: #ccc;margin: 0 auto;margin-bottom: 5vw;
+ border:1px solid #079fdb;}
+.n_contents a{display: block;width: 100%;height: 100%;}
+/* 뉴스 제목 */
+.n_contents>dt{width: 80%; height:10vw; margin: 0 auto 10vw; color:#fff;
+ font-size: 4vw;}
+/*각각의 dd들의 이미지 */
+.news_list .weekly_lck{height: 30vw;
+  background-image: url(../../../img/news/weekly_lck.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.news_01{background-image: url(../../../img/news/news_01.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+.news_02{background-image: url(../../../img/news/news_02.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+.pcfull_news{display: none;}
+
+}/* ------- 481 ~ 767 */
+
+
+
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+.mainConTent_06Wrap{
+   width: 100%;height: 100%;
+   background-image: url(../../../img/bg/menu_bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;padding-bottom: 5vw; box-sizing: border-box;}
+
+#mainConTent_06{width: 100%; height: 100%; }
+          /*메인컨텐츠_06 제목 영역*/
+.schedule_title_06{ width: 100%;height:7vh;
+ background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(30deg,rgba(204,0,112,0.4),rgba(7,159,219,0.2),rgba(255,255,255,0.6));
+   font-size: 1.5vw; color:#000;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*===========================================*/
+/*모바일의 뉴스들 가리기*/
+.news_list{display: none;}
+/*============================================*/
+
+/*뉴스와 weekly LCK, 그밖에 커뮤니티사이트 등 링크 */
+
+
+.pcfull_news{width: 70%;height: 80%;margin:5vw auto 0; }
+.pcfull_news a{display: block;width: 100%;height: 100%;}
+
+.pc_newslist{width: 48%; height: 100%; background-color: #09f; float: left; border:2px solid #079fdb;
+ box-sizing: border-box;}
+.pc_newslist li{width: 100%;height: 20%;
+ position: relative;
+background-position:0 -3vw;
+background-size:cover;
+background-repeat: no-repeat;}
+.pc_newslist span{display: block; width:100%;height: 50%;
+position: absolute;top:0;margin-top:3.7vw; padding-left:1vw; box-sizing: border-box;font-size: 1.2vw; 
+  font-weight: bold;color:#fff; text-shadow: 3px 3px 2px #000;background-color: rgba(0,0,0,0.4);}
+.pcnews_01{background-image: url(../../../img/news/news_03.jpg);
+}
+.pcnews_02{background-image: url(../../../img/news/news_04.jpg); 
+}
+.pcnews_03{background-image: url(../../../img/news/news_05.jpg);
+}
+.pcnews_04{background-image: url(../../../img/news/news_06.jpg);
+}
+.pcnews_05{background-image: url(../../../img/news/news_07.png);
+}
+
+
+.right_list{width: 48%;height: 100%;float: right;}
+.weekly_lck{width: 100%; height:30%;float: left;
+  background-image: url(../../../img/news/weekly_lck.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  border:2px solid #079fdb;
+ box-sizing: border-box;
+}
+.play_off{width: 100%; height: 70%;float: left;
+background-image: url(../../../img/news/playoff.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 7%;
+border:2px solid #079fdb;
+ box-sizing: border-box;
+}
+
+}/* ------- 768 ~ 1366 */
+
+
+
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+ .mainConTent_06Wrap{
+   width: 100%;height: 120%;
+   background-image: url(../../../img/bg/menu_bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;}
+
+#mainConTent_06{width: 100%; height: 100%; padding:5vw 0; box-sizing: border-box;}
+          /*메인컨텐츠_06 제목 영역*/
+.schedule_title_06{ width: 100%;height:7vh;
+ background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(30deg,rgba(204,0,112,0.4),rgba(7,159,219,0.2),rgba(255,255,255,0.6));
+   font-size: 1vw; color:#000;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*===========================================*/
+/*모바일의 뉴스들 가리기*/
+.news_list{display: none;}
+/*============================================*/
+
+/*뉴스와 weekly LCK, 그밖에 커뮤니티사이트 등 링크 */
+
+
+.pcfull_news{width: 70%;height: 80%;margin:5vw auto 0; }
+.pcfull_news a{display: block;width: 100%;height: 100%;}
+
+.pc_newslist{width: 48%; height: 100%; background-color: #09f; float: left; border:1px solid #079fdb;
+ box-sizing: border-box;}
+.pc_newslist li{width: 100%;height: 21%;
+ position: relative;
+background-position: top;
+background-size:cover;
+background-repeat: no-repeat;}
+.pc_newslist span{display: block; width:100%;height: 50%;
+position: absolute;top:0;margin-top:4vw; padding-left:1vw; box-sizing: border-box;font-size: 1vw; 
+  font-weight: bold;color:#fff; text-shadow: 3px 3px 2px #000;background-color: rgba(0,0,0,0.4);}
+.pcnews_01{background-image: url(../../../img/news/news_03.jpg);
+}
+.pcnews_02{background-image: url(../../../img/news/news_04.jpg); 
+}
+.pcnews_03{background-image: url(../../../img/news/news_05.jpg);
+}
+.pcnews_04{background-image: url(../../../img/news/news_06.jpg);
+}
+.pcnews_05{background-image: url(../../../img/news/news_07.png);
+}
+
+
+.right_list{width: 48%;height: 100%;float: right;}
+.weekly_lck{width: 100%; height:25%;float: left;
+  background-image: url(../../../img/news/weekly_lck.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  border:1px solid #079fdb;
+ box-sizing: border-box;
+}
+.play_off{width: 100%; height: 75%;float: left;
+background-image: url(../../../img/news/playoff.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 7%;
+border:1px solid #079fdb;
+ box-sizing: border-box;
+}
+
+}/* ------- min1367 */

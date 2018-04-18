@@ -1,0 +1,280 @@
+_@charset "utf-8";
+/*mainConTent_05.css*/
+
+/* base(basic) layout (IE and 공통)-------------------------------- */
+.mainConTent_05Wrap{width: 100%;height: 100%;}
+
+
+/* responsive web ================================== */
+
+/* max480(mob) layout -------------------------------- */
+@media screen and (max-width:480px) {
+  /* design */
+  #mainConTent_05{ width: 100%; min-width: 200px; height:100%;}
+/*베너_05 제목 영역*/
+.schedule_title_05{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+/*btn_area*/
+.view_btn{width: 100%;height:auto; position: relative;margin-top: 10vw;}
+.view_btn button{display: block; width: 25vw; height: 10vw; position: absolute;top:50%;margin-top:55%; margin-left:37%;
+   background-color:transparent;float: left; }
+.view_l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;}
+.view_r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:38%;}
+
+/*경기영상*/
+
+/*멀티미디어 랩*/
+.leagueview_warp{width: 100%;height: 100%; padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+/*영상 링크*/
+.playlist_wrap{width: 100%;height:auto; }
+/*dl값*/
+.playlist{width: 100%;height: 100%;}
+/*첫번째 dl마다 패딩바텀값 주기 */
+.playlist:nth-of-type(1n){padding-bottom: 20vw; box-sizing: border-box;}
+/* dd안의 링크 사이즈*/
+.playlist_wrap>dl>dd{width: 80%;height: 40vw;
+  background-image: url(../../../img/bg/player_mv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  
+                     margin: 0 auto;}
+/*에이 */
+.playlist_wrap>dl>dd>a{display: block;
+width: 100%;height: 100%;}
+/*링크영상 제목*/
+.playlist_wrap>dl>dt{width: 80%; height: 10vw;
+  margin: 0 auto; text-align: center;line-height: 5vw;
+margin-top: 2.5vw; font-size: 3vw;color:#fff;}
+
+
+
+
+}/* ------- max480 */
+
+
+
+
+/* 481 ~ 767(tabV) layout -------------------------------- */
+@media screen and (min-width:481px) and (max-width:767px) {
+   #mainConTent_05{ width: 100%; min-width: 200px; height:100%;}
+/*베너_05 제목 영역*/
+.schedule_title_05{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+/*btn_area*/
+.view_btn{width: 100%;height:auto; background-color: #4f5;position: relative;margin-top: 10vw;}
+.view_btn button{display: block; width: 25vw; height: 10vw; position: absolute;top:50%;margin-top:55%; margin-left:37%;
+   background-color:transparent;float: left; }
+.view_l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;}
+.view_r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:38%;}
+
+/*경기영상*/
+
+/*멀티미디어 랩*/
+.leagueview_warp{width: 100%;height: 100%; padding-top:10vw;background-color:transparent; box-sizing: border-box;}
+/*영상 링크*/
+.playlist_wrap{width: 100%;height:auto; }
+/*dl값*/
+.playlist{width: 100%;height: 100%;}
+/*첫번째 dl마다 패딩바텀값 주기 */
+.playlist:nth-of-type(1n){padding-bottom: 20vw; box-sizing: border-box;}
+/* dd안의 링크 사이즈*/
+.playlist_wrap>dl>dd{
+  width: 80%;height: 40vw;
+  background-image: url(../../../img/bg/player_mv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain ;
+  margin: 0 auto;}
+/*에이 */
+.playlist_wrap>dl>dd>a{display: block;
+width: 100%;height: 100%;}
+/*링크영상 제목*/
+.playlist_wrap>dl>dt{width: 80%; height: 10vw;
+  margin: 0 auto;text-align: center;
+margin-top: 2.5vw; font-size: 3vw;color:#fff;}
+
+
+}/* ------- 481 ~ 767 */
+
+
+
+
+/* 768 ~ 1366(tabPc) layout -------------------------------- */
+@media screen and (min-width:768px) and (max-width:1366px) {
+  /* design */
+  .mainConTent_05Wrap{background-image: url(../../../img/bg/lol_backgroundimage_01.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 10vh; box-sizing:border-box;
+    width: 100%; height:auto;padding-bottom: 5vw;
+  }
+  #mainConTent_05{width: 100%; height: 100%;
+                  margin: 0 auto;}
+/*베너_05 제목 영역*/
+.schedule_title_05{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1.5vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*btn_area*/
+.view_btn{width: 100%;height:auto;position: relative;}
+.view_btn button{display: block; width: 10vw; height: 1vw; position: absolute;top:50%;margin-top:34%; margin-left:37%;
+   background-color:transparent;float: left; }
+.view_l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;}
+.view_r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:53%;}
+
+/*경기영상*/
+
+/*멀티미디어 랩*/
+.leagueview_wrap{width: 80%;height:100%; margin: 0 auto;
+  padding-top:10vw ; box-sizing:border-box;
+ }
+
+/*.leagueview_wrap>div:nth-of-type(2n-1){padding-left:  5vw; box-sizing:  border-box; background-color:   #f90;}
+.leagueview_wrap>div:nth-of-type(2n){padding-right:  5vw; box-sizing:  
+border-right;background-color:  #f09;}*/
+/*영상 링크*/
+/*div div div div div div div div*/
+.playlist_wrap{width:50%;height:auto;float: left;
+  }
+
+/*.playlist_wrap:nth-of-type(2n){background-color: rgba(0,0,0,0.3);}*/
+
+/*dl dl dl dl dl dl dl dl dl*/
+.playlist{width: 100%;height: auto; 
+float: left;}
+.playlist:nth-of-type(1n){ margin-bottom: 10vw;}
+.playlist:nth-of-type(2n){margin-bottom: 0;}
+
+/*.play_01{padding-left: 5vw; box-sizing: border-box;}*/
+
+
+/* dd안의 링크 사이즈*/
+.playlist_wrap>dl>dd{widows: 100%;height:14vw;
+                     margin: 0 auto;
+                     background-image: url(../../../img/verse/verse_01.jpg);
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size: contain ;
+                     }
+/*에이 */
+.playlist_wrap>dl>dd>a{display: block;
+width: 100%;height: 100%;}
+/*링크영상 제목*/
+.playlist_wrap>dl>dt{width: 80%; height: auto;
+  margin: 0 auto;text-align: center;
+margin-top: 1.5vw; font-size: 1.5vw;color:#fff;}
+
+
+}/* ------- 768 ~ 1366 */
+
+
+
+
+/* min1367(pcFull) layout -------------------------------- */
+@media screen and (min-width:1367px) {
+  /* design */
+    /* design */
+  .mainConTent_05Wrap{background-image: url(../../../img/bg/lol_backgroundimage_01.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 10vh; box-sizing:border-box;
+    width: 100%; height: auto;
+  }
+  #mainConTent_05{width: 100%; height: 100%;}
+/*베너_05 제목 영역*/
+.schedule_title_05{width: 100%;height:7vh;
+  background-color:rgba(255,255,255,0.2);
+   background: linear-gradient(-30deg,rgba(204,0,112,0.2),rgba(7,159,219,0.2),rgba(255,255,255,0.2));
+  display: block;font-size: 1vw; color:#fff;text-align: center; line-height:7vh;font-weight: bold;}
+
+/*btn_area*/
+.view_btn{width: 100%;height:auto;position: relative;}
+.view_btn button{display: block; width: 10vw; height: 1vw; position: absolute;top:50%;margin-top:34%; margin-left:37%;
+   background-color:transparent;float: left; }
+.view_l_btn{background-image: url(../../../img/icon/l_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:-37%;}
+.view_r_btn{background-image: url(../../../img/icon/r_btn_lv1.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size:contain ;
+       left:53%;}
+
+/*경기영상*/
+
+/*멀티미디어 랩*/
+.leagueview_wrap{width: 100%;height:100%; margin: 0 auto;
+  padding:10vw 0 ; box-sizing:border-box;
+
+ }
+
+/*.leagueview_wrap>div:nth-of-type(2n-1){padding-left:  5vw; box-sizing:  border-box; background-color:   #f90;}
+.leagueview_wrap>div:nth-of-type(2n){padding-right:  5vw; box-sizing:  
+border-right;background-color:  #f09;}*/
+/*영상 링크*/
+/*div div div div div div div div*/
+.playlist_wrap{width:50%;height:100%;float: left;
+  }
+
+/*.playlist_wrap:nth-of-type(2n){background-color: rgba(0,0,0,0.3);}*/
+
+/*dl dl dl dl dl dl dl dl dl*/
+.playlist{width: 100%;height: auto; 
+float: left;}
+.playlist:nth-of-type(1n){ margin-bottom: 10vw;}
+.playlist:nth-of-type(2n){margin-bottom: 0;}
+
+/*.play_01{padding-left: 5vw; box-sizing: border-box;}*/
+
+
+/* dd안의 링크 사이즈*/
+.playlist_wrap>dl>dd{widows: auto;height:14vw;
+                     margin: 0 auto;
+                     background-image: url(../../../img/bg/player_mv.png);
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size: contain ;
+                     }
+/*에이 */
+.playlist_wrap>dl>dd>a{display: block;
+width: 100%;height: 100%;}
+/*링크영상 제목*/
+.playlist_wrap>dl>dt{width: 80%; height: auto;
+  margin: 0 auto;text-align: center; line-height:1.5vw;
+margin-top: 1.5vw; font-size: 1vw;color:#fff;}
+
+}/* ------- min1367 */
